@@ -29,14 +29,15 @@ const Resources = () => {
     },
     {
       id: 'handbook',
-      title: 'Complete Money Handbook',
+      title: 'ChequeItOut Christmas Competition 2025',
       description: 'A comprehensive 50-page guide covering all financial literacy basics for kids aged 10-16',
       type: 'PDF Guide',
       pages: '50 pages',
       size: '12.5 MB',
       icon: BookOpen,
       color: 'from-blue-500 to-cyan-500',
-      bgColor: '#3b82f6',
+      bgColor: '#3b82f6', 
+      downloadUrl: '/ChequeItOut Christmas Competition 2025.pdf',
       features: [
         'Interactive budgeting worksheets',
         'Real-world money scenarios',
