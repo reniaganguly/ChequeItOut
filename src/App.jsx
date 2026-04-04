@@ -13,7 +13,9 @@ import { Toaster } from './components/ui/toaster'
 import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
 import TermsOfService from './pages/TermsOfService.jsx'
 import CookiePolicy from './pages/CookiePolicy.jsx'
+
 import OurPartners from './pages/OurPartners.jsx'
+
 
 function App() {
 
@@ -29,7 +31,9 @@ function App() {
            <Route path='/individual-blog' element={<IndividualBlog/>}/> {/* /stories/:id */}
            <Route path='/tools' element={<Tools/>}/> 
            <Route path='/blogs' element={<Blogs/>}/>
+
            <Route path='/ourpartners' element={<OurPartners/>}/>
+
           <Route path='/resources' element={<Resources/>}/>
           <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>  {/* ← ADD */}
           <Route path='/terms-of-service' element={<TermsOfService/>}/>  {/* ← ADD */}

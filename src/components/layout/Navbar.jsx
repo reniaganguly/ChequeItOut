@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Menu, X, Coins, BookOpen, Calculator, Download, FileText, User, User2Icon, Building2 } from 'lucide-react';
+
+import { Menu, X, Coins, BookOpen, Calculator, Download, FileText, User, Building2 } from 'lucide-react';
+
 import { Button } from '../ui/button';
 
 const Navbar = () => {
@@ -14,7 +16,9 @@ const Navbar = () => {
     { id: 'tools', label: 'Tools', icon: Calculator, path: '/tools' },
     { id: 'resources', label: 'Resources', icon: Download, path: '/resources' },
     { id: 'blog', label: 'Blog', icon: FileText, path: '/blogs' },
+
     { id: 'ourpartners', label: 'OurPartners', icon: Building2, path: '/ourpartners' },
+
     { id: 'about', label: 'About', icon: User, path: '/about' },
   ];
 

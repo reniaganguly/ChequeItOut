@@ -1,6 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+
 import { ArrowRight, BookOpen, Calculator, Download, Users, Star, Target, Heart, Coins, HeartHandshake } from 'lucide-react';
+
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 
@@ -246,6 +248,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
 
       {/* Our Partners Section */}
       <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
