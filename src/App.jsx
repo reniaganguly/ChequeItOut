@@ -15,6 +15,7 @@ import TermsOfService from './pages/TermsOfService.jsx'
 import CookiePolicy from './pages/CookiePolicy.jsx'
 
 import OurPartners from './pages/OurPartners.jsx'
+import Contact from './pages/Contact.jsx'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
+          <Route path='/contact' element={<Contact/>}/>
           <Route path='/kit-corner' element={<KidsCorner/>}/>
            <Route path='/individual-blog' element={<IndividualBlog/>}/> {/* /stories/:id */}
            <Route path='/tools' element={<Tools/>}/> 

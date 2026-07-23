@@ -1,1 +1,49 @@
 @import "tailwindcss";
+
+/* Latest news marquee */
+.news-scroll {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.news-scroll__content {
+  display: flex;
+  gap: 2rem;
+  animation: newsSlide 130s linear infinite;
+}
+
+.news-scroll__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.news-scroll__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: #fff;
+}
+
+/* Smooth horizontal loop */
+@keyframes newsSlide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause scroll when user hovers */
+.news-scroll:hover .news-scroll__content {
+  animation-play-state: paused;
+}
+
+/* Accessibility: disable animation for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .news-scroll__content {
+    animation: none;
+  }
+}

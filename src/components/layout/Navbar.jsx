@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-import { Menu, X, Coins, BookOpen, Calculator, Download, FileText, User, Building2 } from 'lucide-react';
+import { Menu, X, Coins, BookOpen, Calculator, Download, FileText, User, Building2, Phone } from 'lucide-react';
 
 import { Button } from '../ui/button';
 
@@ -12,14 +12,14 @@ const Navbar = () => {
 
   const navItems = [
     { id: 'home', label: 'Home', icon: Coins, path: '/' },
+    { id: 'about', label: 'About', icon: User, path: '/about' },
     { id: 'learn', label: 'Kids\' Corner', icon: BookOpen, path: '/kit-corner' },
     { id: 'tools', label: 'Tools', icon: Calculator, path: '/tools' },
     { id: 'resources', label: 'Resources', icon: Download, path: '/resources' },
     { id: 'blog', label: 'Blog', icon: FileText, path: '/blogs' },
 
-    { id: 'ourpartners', label: 'OurPartners', icon: Building2, path: '/ourpartners' },
-
-    { id: 'about', label: 'About', icon: User, path: '/about' },
+    { id: 'ourpartners', label: 'Our Partners', icon: Building2, path: '/ourpartners' },
+     { id: 'contact', label: 'Contact', icon: Phone, path: '/contact' },
   ];
 
   // Function to check if current route is active
@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-9xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div 
