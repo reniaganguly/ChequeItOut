@@ -34,7 +34,7 @@ const Resources = () => {
 
       description: 'A comprehensive 50-page guide covering all financial literacy basics for kids aged 10-16',
       type: 'PDF Guide',
-      pages: '50 pages',
+      pages: '5 pages',
       size: '12.5 MB',
       icon: BookOpen,
       color: 'from-blue-500 to-cyan-500',
