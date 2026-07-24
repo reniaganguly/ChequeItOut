@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-import { Menu, X, Coins, BookOpen, Calculator, Download, FileText, User, Building2, Phone } from 'lucide-react';
+import { Menu, X, Coins, BookOpen, Calculator, Download, FileText, User, Building2, Phone, Trophy } from 'lucide-react';
 
 import { Button } from '../ui/button';
 
@@ -13,7 +13,8 @@ const Navbar = () => {
   const navItems = [
     { id: 'home', label: 'Home', icon: Coins, path: '/' },
     { id: 'about', label: 'About', icon: User, path: '/about' },
-    { id: 'learn', label: 'Kids\' Corner', icon: BookOpen, path: '/kit-corner' },
+    { id: 'award', label: 'Award & Media', icon: Trophy, path: '/awards-media' },
+    { id: 'learn', label: 'Kids Corner', icon: BookOpen, path: '/kit-corner' },
     { id: 'tools', label: 'Tools', icon: Calculator, path: '/tools' },
     { id: 'resources', label: 'Resources', icon: Download, path: '/resources' },
     { id: 'blog', label: 'Blog', icon: FileText, path: '/blogs' },

@@ -16,6 +16,7 @@ import CookiePolicy from './pages/CookiePolicy.jsx'
 
 import OurPartners from './pages/OurPartners.jsx'
 import Contact from './pages/Contact.jsx'
+import AwardsMedia from './pages/AwardsMedia';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
            <Route path='/individual-blog' element={<IndividualBlog/>}/> {/* /stories/:id */}
            <Route path='/tools' element={<Tools/>}/> 
            <Route path='/blogs' element={<Blogs/>}/>
+           <Route path="/awards-media" element={<AwardsMedia />} />
 
            <Route path='/ourpartners' element={<OurPartners/>}/>
 
