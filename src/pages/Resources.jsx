@@ -32,7 +32,7 @@ const Resources = () => {
 
       title: 'ChequeItOut Christmas Competition 2025',
 
-      description: 'A comprehensive 50-page guide covering all financial literacy basics for kids aged 10-16',
+      description: 'A comprehensive 5-page guide covering all financial literacy basics for kids aged 10-16',
       type: 'PDF Guide',
       pages: '5 pages',
       size: '12.5 MB',
