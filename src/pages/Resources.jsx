@@ -40,7 +40,7 @@ const Resources = () => {
       color: 'from-blue-500 to-cyan-500',
 
       bgColor: '#3b82f6', 
-      downloadUrl: '/ChequeItOut Christmas Competition 2025.pdf',
+      downloadUrl: '/ChequeItOut Christmas Competition 2025.pdf', 
       features: [
         'Interactive budgeting worksheets',
         'Real-world money scenarios',
@@ -50,19 +50,20 @@ const Resources = () => {
     },
     {
       id: 'activities',
-      title: 'Fun Activities Workbook',
-      description: 'Engaging exercises, games, and challenges to make learning about money exciting and memorable',
+      title: 'ChequeItOut Easter Competition',
+      description: 'Build a Bank & Fund a Festive Business!',
       type: 'Activity Book',
-      pages: '35 pages',
-      size: '8.2 MB',
+      pages: '5 pages',
+      size: '10.8 MB',
       icon: PenTool,
       color: 'from-pink-500 to-rose-500',
       bgColor: '#e879a7',
+      downloadUrl: '/ChequeItOut Easter Competition.pdf',
       features: [
-        'Money-themed puzzles and games',
-        'Budgeting challenges',
-        'Savings goal planners',
-        'Certificate of completion'
+        'Interactive Easter Competition',
+        'Design your own banks',
+        'Design your lobby',
+        'Festive Loan Challenge'
       ]
     },
     {
