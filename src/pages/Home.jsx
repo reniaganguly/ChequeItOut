@@ -38,7 +38,7 @@ const Home = () => {
     'Delivers financial literacy workshop to 16–18 year olds at EY Early Careers programme in the UK',
     'Leading Project “Esparsh” with SNJ Charity to establish a Digital Centre and deliver digital & financial literacy in a leprosy colony in Haridwar, India',
     'Organised a charity Afternoon Tea with Afro Ganza to raise funds for the Digital Centre',
-    'Delivered financial literacy workshops to student groups at Uthando House, South Africa'
+    'Delivered financial literacy workshops to student groups at Uthando House, South Africa', 'Digital centre at Dehradun- where Renia is seen teaching', 'Inauguration of the Digital Centre in the Leprosy Colony in Haridwar'
   ];
 
   const features = [
@@ -123,7 +123,7 @@ const Home = () => {
   ];
 
   const eventPhotos = Array.from(
-    { length: 18 },
+    { length: 30 },
     (_, i) => `/images/header-image-${i + 1}.jpeg`
   );
 
@@ -583,7 +583,7 @@ const Home = () => {
 
     <div className="grid grid-cols-1 xl:grid-cols-[1.2fr_0.8fr] gap-8">
       <Card className="overflow-hidden border border-pink-100 rounded-3xl bg-white/90 shadow-xl shadow-pink-100/40">
-        <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr]">
+        <div className="grid grid-cols-1">
           <div className="p-6 sm:p-8">
             <div className="inline-flex items-center gap-2 rounded-full bg-pink-50 text-pink-600 px-3 py-1 text-xs font-semibold mb-4">
               <Award className="h-4 w-4" />
@@ -642,8 +642,8 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="h-full bg-gradient-to-br from-pink-50 via-white to-purple-50 p-6 sm:p-8 border-t lg:border-t-0 lg:border-l border-pink-100">
-            <div className="rounded-2xl overflow-hidden shadow-md border border-white/60 mb-4 bg-white">
+          <div className="h-full grid grid-cols-2 gap-4 bg-gradient-to-br from-pink-50 via-white to-purple-50 p-6 sm:p-8 border-t lg:border-t-0 lg:border-l border-pink-100">
+            <div className="rounded-2xl overflow-hidden shadow-md border border-white/60 bg-white">
               <img
                 src="/rotary-young-citizen.jpeg"
                 alt="Renia Ganguly receiving the Rotary Young Citizen Award 2026"
@@ -652,7 +652,7 @@ const Home = () => {
             </div>
 
             <div className="rounded-2xl overflow-hidden border border-pink-100 bg-white shadow-sm">
-              <div className="aspect-video">
+              <div className="aspect-video w-full h-full">
                 <iframe
                   src="https://www.youtube.com/embed/Y7HpUGsw0Ag"
                   title="Renia Ganguly - Rotary Young Citizen Awards 2026"

@@ -53,6 +53,23 @@ const AwardsMedia = () => {
       href: 'https://magazine.rotarygbi.org/rotary-young-citizen-june-2026',
       image: '/images/Media-cover-4.png',
       category: 'Award coverage'
+    },
+     // NEW: Digital centre at Dehradun
+    {
+      outlet: 'Digital Centre – Dehradun',
+      title: 'ChequeItOut delivers financial literacy at SNJ Digital Learning Centre in Dehradun',
+      href: 'https://www.instagram.com/reel/DbD4rhAJLJ_/?igsh=b3VnazR6Ymljc3Y0',
+      image: '/images/Media-cover-6.jpeg', // from Media-cover-4-2.jpg
+      category: 'Digital learning centre'
+    },
+
+    // NEW: Digital Centre – Haridwar leprosy colony
+    {
+      outlet: 'SNJ Charitable Trust',
+      title: 'Digital learning centre inaugurated in the leprosy colony in Haridwar',
+      href: 'https://pachhwadunvikas.com/snj-charitable-trust-opens-digital-learning-center-in-haridwar-a-big-step-towards-digital-education/',
+      image: '/images/Media-cover-5.jpeg', // from Media-cover-5.jpg
+      category: 'Community initiative'
     }
   ];
 
@@ -74,8 +91,13 @@ const AwardsMedia = () => {
     },
     {
       year: '2026',
-      title: 'International youth engagement',
-      text: 'Workshops and impact stories from South Africa and India continued to expand ChequeItOut’s reach.'
+      title: 'Digital Centre – Dehradun',
+      text: 'ChequeItOut delivers financial literacy at SNJ Digital Learning Centre in Dehradun.'
+    },
+    {
+      year: '2026',
+      title: 'SNJ Charitable Trust',
+      text: 'Digital learning centre inaugurated in the leprosy colony in Haridwar.'
     }
   ];
 
@@ -201,7 +223,7 @@ const AwardsMedia = () => {
                         title="Renia Ganguly - Rotary Young Citizen Awards 2026"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
-                        className="w-full h-full border-0"
+                        className="w-full h-full lg:h-[300px] border-0"
                       />
                     </div>
                   </div>
@@ -323,6 +345,103 @@ const AwardsMedia = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+            {/* NEW: Digital centres – Dehradun & Haridwar */}
+      <section className="py-16 bg-gradient-to-br from-teal-50 via-white to-pink-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <div className="inline-flex items-center gap-2 rounded-full bg-white text-teal-600 px-4 py-2 text-xs font-semibold shadow-sm border border-teal-100 mb-4">
+              <Newspaper className="h-4 w-4" />
+              Digital Centres in India
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3 font-display">
+              Esparsh <span className="text-pink-500">Digital Learning Centres</span>
+            </h2>
+            <p className="text-sm md:text-base text-gray-700 max-w-3xl mx-auto">
+              Media coverage of the ChequeItOut x SNJ Charitable Trust digital centres,
+              where Renia teaches financial literacy and digital skills in Dehradun and
+              in a leprosy colony in Haridwar.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-[0.9fr_0.9fr] gap-8 items-start">
+            {/* Left: Dehradun teaching */}
+            <Card className="rounded-3xl border border-teal-100 bg-white shadow-md">
+              <CardHeader className="pb-3">
+                <CardTitle className="text-xl md:text-2xl font-bold text-gray-900 font-display">
+                  Digital Centre at Dehradun
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="rounded-2xl overflow-hidden border border-teal-100 bg-slate-50">
+                  <img
+                    src="/images/header-image-29.jpeg"
+                    alt="Renia teaching at the Digital Centre in Dehradun"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <p className="text-sm md:text-base text-gray-700 leading-7">
+                  At the SNJ Digital Learning Centre in Dehradun, Renia delivers interactive
+                  financial literacy sessions alongside digital skills training, helping
+                  students gain confidence with money and technology.
+                </p>
+                <a
+                  href="https://www.instagram.com/reel/DbD4rhAJLJ_/?igsh=b3VnazR6Ymljc3Y0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-teal-600 font-semibold text-sm hover:underline"
+                >
+                  Watch Dehradun reel
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </a>
+              </CardContent>
+            </Card>
+
+            {/* Right: Haridwar leprosy colony inauguration */}
+            <Card className="rounded-3xl border border-pink-100 bg-white shadow-md">
+              <CardHeader className="pb-3">
+                <CardTitle className="text-xl md:text-2xl font-bold text-gray-900 font-display">
+                  Digital Centre in Haridwar Leprosy Colony
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="rounded-2xl overflow-hidden border border-pink-100 bg-slate-50">
+                  <img
+                    src="/images/header-image-26.jpeg"
+                    alt="Inauguration of the Digital Centre in the leprosy colony in Haridwar"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <p className="text-sm md:text-base text-gray-700 leading-7">
+                  Media stories highlight the inauguration of the Digital Learning Centre in
+                  a leprosy colony in Haridwar, created with SNJ Charitable Trust to bring
+                  digital and financial education to marginalised communities.
+                </p>
+                <div className="space-y-2">
+                  <a
+                    href="https://pachhwadunvikas.com/snj-charitable-trust-opens-digital-learning-center-in-haridwar-a-big-step-towards-digital-education/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-pink-600 font-semibold text-sm hover:underline"
+                  >
+                    Read Haridwar article
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/share/v/1D5aBz6bm5/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-pink-600 font-semibold text-sm hover:underline"
+                  >
+                    Watch inauguration video
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
