@@ -556,7 +556,7 @@ const Home = () => {
 {/* Awards & Media Section */}
 <section className="py-20 bg-gradient-to-br from-rose-50 via-white to-sky-50">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="flex flex-row lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
+    <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
       <div className="max-w-3xl">
         <div className="inline-flex items-center gap-2 rounded-full bg-white text-pink-600 px-4 py-2 text-xs font-semibold shadow-sm border border-pink-100 mb-4">
           <Heart className="h-4 w-4" />
@@ -642,7 +642,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="h-full grid grid-cols-2 gap-4 bg-gradient-to-br from-pink-50 via-white to-purple-50 p-6 sm:p-8 border-t lg:border-t-0 lg:border-l border-pink-100">
+          <div className="h-full grid grid-cols-1 lg:grid-cols-2 gap-4 bg-gradient-to-br from-pink-50 via-white to-purple-50 p-6 sm:p-8 border-t lg:border-t-0 lg:border-l border-pink-100">
             <div className="rounded-2xl overflow-hidden shadow-md border border-white/60 bg-white">
               <img
                 src="/rotary-young-citizen.jpeg"
