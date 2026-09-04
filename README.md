@@ -1,12 +1,25 @@
-# React + Vite
+# ChequeItOut
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Official website of **ChequeItOut** — a youth-led financial literacy platform
+founded by **Renia Ganguly**, winner of the Rotary Young Citizen Award 2026.
 
-Currently, two official plugins are available:
+Live site: https://chequeitout.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Ownership
 
-## Expanding the ESLint configuration
+© 2026 Renia Ganguly / ChequeItOut. All rights reserved.
+This codebase and all content are the property of Renia Ganguly.
+Not licensed for redistribution, resale, or reuse without written permission.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech stack
+
+React 19, Vite 7, Tailwind CSS 4, React Router 7, Radix UI, Framer Motion.
+
+## Local development
+
+```bash
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # production build to /dist
+npm run preview  # preview the production build
+```

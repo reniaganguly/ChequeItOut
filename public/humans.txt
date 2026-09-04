@@ -1,0 +1,10 @@
+/* OWNER */
+Name: Renia Ganguly
+Role: Founder & Owner, ChequeItOut
+Site: https://chequeitout.com
+Location: Birmingham, United Kingdom
+
+/* SITE */
+Copyright: © 2026 Renia Ganguly / ChequeItOut. All rights reserved.
+Language: English (en-GB)
+Standards: HTML5, CSS3, React, Vite
